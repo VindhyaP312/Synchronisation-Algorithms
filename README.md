@@ -1,1 +1,2 @@
-# Synchronisation-Algorithms
+# Sudoku Validator (Dynamic Multithreading)
+This program validates whether a given N×N Sudoku is correctly solved using dynamic multithreaded allocation in C++. Each thread dynamically picks validation tasks (rows, columns, or sub grids) using a shared counter C, incremented safely using one of the mutual exclusion mechanisms: TAS, CAS, or Bounded CAS.
